@@ -1,0 +1,7 @@
+{
+  "name": "secret-santa",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <input #username/>
+  <input #password/>
+  <button (click)="onLoginClick(username.value, password.value)">Login</button>
+  {{ errorMessage }}
+</ion-content>

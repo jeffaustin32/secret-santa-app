@@ -1,0 +1,19 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Events</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card *ngFor="let event of events" (click)="onEventClick(event)">
+    <ion-card-header>
+      {{ event.name }}
+    </ion-card-header>
+    <ion-card-content>
+      {{ event.description }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
